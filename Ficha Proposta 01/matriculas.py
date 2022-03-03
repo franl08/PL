@@ -1,6 +1,6 @@
 import re
 
-m = re.compile(r'(\d{2}\.{3}\d{2}\.{3}\d{2}\.{3}\d{2})|(\d{2}-\d{2}-\d{2}-\d{2})|(\d{2}:\d{2}:\d{2}:\d{2})')
+m = re.compile(r'((\d{2}\.{3}){3}\d{2})|((\d{2}-){3}\d{2})|((\d{2}:){3}\d{2})')
 f = open('texto.txt', 'r')
 nMatriculas = 0
 
