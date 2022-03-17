@@ -1,0 +1,24 @@
+
+1 2
+
+soma_on
+
+1 2 3
+
+mul_on
+
+4 5 6
+
+soma_on 124 355 1 2
+
+123
+=
+soma_off
+
+mul_off
+
+12 4
+
+soma_off
+
+=

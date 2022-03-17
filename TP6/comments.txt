@@ -1,0 +1,14 @@
+texto 1
+
+texto 2
+
+/* comentario 1 */
+
+texto 3 /* comentario 2 */ texto 4
+
+/*
+comentario 3
+multilinha
+*/
+
+texto 5
