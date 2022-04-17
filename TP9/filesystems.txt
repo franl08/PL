@@ -1,0 +1,14 @@
+PL {
+    aulas {
+        aula-01 {
+            ola.txt,
+            lex.py
+        },
+        aula-02 {
+            adeus.txt,
+            grammar.py
+        }
+    },
+    exercicios {},
+    README.md
+}
