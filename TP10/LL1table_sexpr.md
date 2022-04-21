@@ -2,7 +2,6 @@
 
 -> É topdown, então, neste tipo de tabelas só colocamos produções nos símbolos que pertencem aos First dos símbolos da esquerda ou Follow nos casos em que é vazio.
 
-| --- | --- | --- | --- | --- |
 |     | pal | num | (   | )   |
 | --- | --- | --- | --- | --- |
 | L   | p1  | p1  | p1  | -   |
