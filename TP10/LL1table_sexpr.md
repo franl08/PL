@@ -10,7 +10,6 @@
 
 -> A tabela LL1 completa tem ainda todos os símbolos terminais e o símbolo final (geralmente o $), mas esta parte é sempre igual:
 
-| --- | --- | --- | --- | --- | --- |
 |     | pal | num | (   | )   | $   |
 | --- | --- | --- | --- | --- | --- |
 | L   | p1  | p1  | p1  | -   | -   |
