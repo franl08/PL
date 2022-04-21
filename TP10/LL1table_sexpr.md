@@ -7,7 +7,6 @@
 | L   | p1  | p1  | p1  | -   |
 | S   | p2  | p3  | p4  | -   |
 | SL  | p5  | p5  | p5  | p6  |
-| --- | --- | --- | --- | --- |
 
 -> A tabela LL1 completa tem ainda todos os símbolos terminais e o símbolo final (geralmente o $), mas esta parte é sempre igual:
 
@@ -23,4 +22,3 @@
 | (   | -   | -   | s   | -   | -   |
 | )   | -   | -   | -   | s   | -   |
 | $   | -   | -   | -   | -   | AC  |
-| --- | --- | --- | --- | --- | --- |
