@@ -1,0 +1,6 @@
+L  : S
+S  : pal
+   | num
+   | ( SL )
+SL : S SL
+   | 
