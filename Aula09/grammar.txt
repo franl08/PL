@@ -1,0 +1,18 @@
+SEP = '%%'
+
+lang : declarations SEP statements
+
+declarations : declarations declaration
+             | 
+
+declaration : VAR ID ';'
+            | VAR ID '=' exp ';'
+
+statements : statements statement
+           |
+
+statement : PRINT exp ';'
+          | READ ID ';'
+          | ID '=' exp ';'
+
+-> Tudo isto + a gramática das expressões
