@@ -1,0 +1,16 @@
+lang : declarations declaration 
+
+declarations : declarations declaration
+             | 
+
+declaration : VAR ID ';'
+            | VAR ID '=' expression ';'
+
+statements : statements statement
+           |
+
+statement : ID '=' expression ';'
+          | READ ID ';'
+          | PRINT expression ';'
+          | IF '(' condition ')' THEN '{' statements '}'
+          | IF '(' condition ')' THEN '{' statements '}' ELSE '{' statements '}'

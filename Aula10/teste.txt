@@ -1,0 +1,25 @@
+// while (x < 3) do {
+//    print x;
+//    x = x + 1;
+// }
+
+PUSHI 0
+START
+
+while:
+PUSHG 0
+PUSHI 3
+INF
+JZ endwhile
+PUSHG 0
+WRITEI
+
+PUSHG 0
+PUSHI 1
+ADD
+STOREG 0
+JUMP while
+
+endwhile:
+
+STOP

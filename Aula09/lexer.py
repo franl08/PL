@@ -6,7 +6,7 @@ reserved = {
     'read' : 'K_READ'
 }
 
-tokens = ['INT', 'PRINT', 'SEP'] + list(reserved.values)
+tokens = ['INT', 'SEP'] + list(reserved.values)
 
 literals = ['+', '*', '-', '/', '(', ')', '=', ';'] 
 
